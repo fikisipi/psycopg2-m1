@@ -18,6 +18,7 @@ jobs:
               export LDFLAGS="-L/opt/homebrew/opt/openssl@3/lib"
               export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
               pyenv global $MATRIX_VERSION
+              pip install wheel
               arch -arm64e python setup.py bdist_wheel
         env:
           MATRIX_VERSION: ${{ matrix.version }}
