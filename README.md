@@ -7,6 +7,10 @@ psycopg2-m1: an Apple Silicon binary for the psycopg2 Postgres adapter
 
 * Versions targeted: 3.7, 3.8, 3.9, 3.10
 
+### Disclaimer
+
+The author and repo are not affiliated with the original `psycopg2` and `psycopg2-binary` projects. 
+
 ### FAQ: How to run M1 Github Actions
 
 Use https://github.com/mas-cli/m1-github-actions-runner on an M1 machine and prefix your build with `arch -arm64e <command>`
