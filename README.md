@@ -6,6 +6,7 @@ psycopg2-m1: an Apple Silicon binary for the psycopg2 Postgres adapter
 [![M1 wheel build](https://github.com/fikisipi/psycopg2-m1/actions/workflows/packages.yml/badge.svg)](https://github.com/fikisipi/psycopg2-m1/actions/workflows/packages.yml)
 
 * Versions targeted: 3.7, 3.8, 3.9, 3.10
+* Build: [GitHub Action](https://github.com/fikisipi/psycopg2-m1/blob/master/.github/workflows/packages.yml)
 
 ### Disclaimer
 
