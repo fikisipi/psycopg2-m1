@@ -6,7 +6,7 @@ on:
 
 jobs:
   build-wheel:
-    runs-on: m1
+    runs-on: macOS
     steps:
       - name: Checkout repos
         uses: actions/checkout@v1
