@@ -1,4 +1,4 @@
-psycopg2-m1: Postgres driver for Apple Silicon
+psycopg2-m1: an Apple Silicon binary for the psycopg2 Postgres adapter
 =============================================
 
 ### A working wheel (binary) which can be installed with `pip install psycopg2-m1`
