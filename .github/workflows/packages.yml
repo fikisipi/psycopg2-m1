@@ -11,7 +11,7 @@ jobs:
       - name: Checkout repos
         uses: actions/checkout@v1
       - run: |
-              export LDFLAGS="-L/usr/local/opt/openssl/lib"
-              export CPPFLAGS="-I/usr/local/opt/openssl/include"
+              export CPPFLAGS="-I/opt/homebrew/opt/openssl@3/include"
+              export LDFLAGS="-L/opt/homebrew/opt/openssl@3/lib"
               export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
               python setup.py bdist_wheel
