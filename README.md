@@ -14,7 +14,7 @@ The author and repo are not affiliated with the original `psycopg2` and `psycopg
 
 ### TODO
 
-Set up an action that will publicly announce & provision an M1 Action Runner instance to produce the binary in a tamper-proof way.
+Set up an action that will publicly provision an M1 Action Runner instance using aws/scaleway CLI to produce the binary in a tamper-proof way.
 
 ### FAQ: How to run M1 Github Actions
 
