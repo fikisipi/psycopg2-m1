@@ -1,5 +1,5 @@
 ---
-name: Build packages
+name: M1 wheel build 
 on:
   - workflow_dispatch
 
