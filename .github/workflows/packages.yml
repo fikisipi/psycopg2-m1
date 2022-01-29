@@ -10,4 +10,8 @@ jobs:
     steps:
       - name: Checkout repos
         uses: actions/checkout@v1
-      - run: PATH="/opt/homebrew/opt/libpq/bin:$PATH" python setup.py bdist_wheel
+      - run: |
+              export LDFLAGS="-L/usr/local/opt/openssl/lib"
+              export CPPFLAGS="-I/usr/local/opt/openssl/include"
+              export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+              python setup.py bdist_wheel
