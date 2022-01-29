@@ -12,6 +12,10 @@ psycopg2-m1: an Apple Silicon binary for the psycopg2 Postgres adapter
 
 The author and repo are not affiliated with the original `psycopg2` and `psycopg2-binary` projects. 
 
+### TODO
+
+Set up a native action that will provision an m1 scaleway instance and produce the binary in a transparent / tamper-proof way.
+
 ### FAQ: How to run M1 Github Actions
 
 Use https://github.com/mas-cli/m1-github-actions-runner on an M1 machine and prefix your build with `arch -arm64e <command>`
