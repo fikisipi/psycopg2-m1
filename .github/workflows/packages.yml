@@ -15,3 +15,8 @@ jobs:
               export LDFLAGS="-L/opt/homebrew/opt/openssl@3/lib"
               export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
               python setup.py bdist_wheel
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v2.3.1
+        with:
+          name: "psycopg2-m1"
+          path: dist/*.whl
