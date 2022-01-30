@@ -1,7 +1,7 @@
-psycopg2-m1: an Apple Silicon binary for the psycopg2 Postgres adapter
+psycopg2-m1: an Apple Silicon binary for psycopg2
 =============================================
 
-### `pip install psycopg2-m1`
+**Download from [GitHub Releases](https://github.com/fikisipi/psycopg2-m1/releases/tag/2.9.3) and run `pip install psycopg2_m1-*-macosx_12_0_arm64.whl`**
 
 [![M1 wheel build](https://github.com/fikisipi/psycopg2-m1/actions/workflows/packages.yml/badge.svg)](https://github.com/fikisipi/psycopg2-m1/actions/workflows/packages.yml)
 
